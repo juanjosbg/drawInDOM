@@ -36,3 +36,4 @@ You will also see any lint errors in the console.
 1. Pikachu
 2. Item B
 3. Item C
+# drawInDOM
