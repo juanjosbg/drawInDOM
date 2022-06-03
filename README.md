@@ -16,7 +16,7 @@ You will also see any lint errors in the console.
 ## User Editor
 ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 
-#### **<https://pandao.github.io/editor.md/en.html>**
+#### ****
 
 ---
                     
