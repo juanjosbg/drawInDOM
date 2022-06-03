@@ -12,28 +12,4 @@ Open http://127.0.0.1:5500/index.html to view it in the browser.
 You will also see any lint errors in the console.
 
 
-                    
-## User Editor
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
-
-#### ****
-
----
-                    
-##Drawings Made
-
-1.
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
-
-----
-2.
-
-----
-3.
-                
-###Ordered list
-                
-1. Pikachu
-2. Item B
-3. Item C
 # drawInDOM
