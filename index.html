@@ -10,6 +10,10 @@
 
 <!-- Styles -->
 <style>
+    *{
+        margin: 0;
+        bottom: 0;
+    }
     .Draw {
         padding: 7vh 11vh;
     }
@@ -24,12 +28,24 @@
                 <hr>
                 <br>
                 <canvas id="myCanvas2" width="400" height="400"></canvas>
+                <br>
+                <hr>
+                <br>
+                <div class="">
+                    <p>Cuantas Lineas quieres
+                        <input type="text" id="selectionLine"/>
+                        <input type="button" value="Aceptar" id="Button" />
+                    </p>
+                </div>
+                <br>    
+                <canvas id="myCanvas3" width="780" height="350"></canvas>
             </div>
         </section>
     </main>
     <!-- Scrt -->
     <script src="/Script/myCanvas.js"></script>
     <script src="/Script/myCanvas2.js"></script>
+    <script src="/Script/myCanvas3.js"></script>
 </body>
 
 </html>
