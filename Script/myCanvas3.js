@@ -1,9 +1,8 @@
 var can3 = document.getElementById("myCanvas3");
 var Select = document.getElementById("selectionLine");
 Button.addEventListener("click", drawingForClick);
+
 var lienzo = can3.getContext("2d");
-
-
 
 
 function lineas(color, xinicial, yinicial, xfinal, yfinal) {
