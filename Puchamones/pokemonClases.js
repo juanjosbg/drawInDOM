@@ -13,3 +13,7 @@ pokedex.push(new Puchamon('lifty', "Cleptomania", 70, 50, 150, 64, 73));
 for (var i in pokedex) {
     pokedex[i].mostrar();
 }
+
+for (var freddito of pokedex){
+    console.log(freddito);
+}
