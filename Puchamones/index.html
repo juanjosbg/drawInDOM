@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h5 {
+            text-align: center;
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url('http://www.lecoindesmots.com/fondecran11/achblog.com-Happy-Tree-Friends-208522.jpg');
+            background-size: cover;
+            width: 100%;
+            background-position: initial;
+        }
+
+        .cont {
+            padding: 4vh;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: stretch;
+        }
+
+        .Video {
+            border-radius: 10px;
+            background: #fff;
+            padding: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .pokemons {
+            padding-left: 5vh;
+        }
+
+        .listoPKmon {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            width: 100%;
+            justify-content: space-around;
+            align-items: stretch;
+            background: #edf2f5a6;
+            padding-top: 6vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cont">
+        <div class="Video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/P-fcXnAVKpw?autoplay=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div id="PK" class="pokemons">
+            <h2 style="text-align:center;">Cual es tu personaje favorito</h2>
+            <div class="listoPKmon">
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="/Puchamones/Puchamones.js"></script>
+    <script src="/Puchamones/pokemonClases.js"></script>
+</body>
+
+</html>
